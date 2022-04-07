@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(
     main
     "main.cpp"
-    "src/basics_struct.cpp"
+    "src/basics/struct.cpp"
 )
 
 # Add the binary tree to the search path for include files.

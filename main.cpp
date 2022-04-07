@@ -1,4 +1,4 @@
-#include "basics_struct.h"
+#include "basics/struct.h"
 
 int main() {
     print_rectangle();
