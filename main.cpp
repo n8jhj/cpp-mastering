@@ -1,7 +1,7 @@
-#include "basics/struct.h"
+#include "basics/pointer.h"
 
 int main() {
-    print_rectangle();
+    print_pointer();
 
     return 0;
 }
