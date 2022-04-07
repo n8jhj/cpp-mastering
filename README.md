@@ -2,8 +2,16 @@
 
 This repository is for working along with the Udemy course [Mastering Data Structures & Algorithms using C and C++](https://www.udemy.com/course/datastructurescncpp).
 
-## Compiling
+## Build and run the code
 
-To compile, run the following (assuming GCC is installed):
+CMake is used to build the project. To generate the buildsystem, first run the following from within the cpp-mastering directory:
 
-`g++ main.cpp src/basics_struct.cpp -I include/`
+`cmake -S . -B build`
+
+Then, to build the project, run:
+
+`cmake --build build/`
+
+Now the main executable can be found in the build directory. To execute it, run:
+
+`./build/main`
