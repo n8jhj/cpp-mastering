@@ -2,6 +2,7 @@
 
 #include "basics/struct.h"
 #include "basics/pointer.h"
+#include "basics/reference.h"
 
 void do_struct() {
     print_rectangle();
@@ -17,8 +18,12 @@ void do_pointer() {
     print_pointer_sizes();
 }
 
+void do_reference() {
+    print_reference();
+}
+
 int main() {
-    do_pointer();
+    do_reference();
 
     return 0;
 }

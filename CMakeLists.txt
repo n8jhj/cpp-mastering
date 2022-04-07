@@ -13,6 +13,7 @@ add_executable(
     "main.cpp"
     "src/basics/struct.cpp"
     "src/basics/pointer.cpp"
+    "src/basics/reference.cpp"
 )
 
 # Add the binary tree to the search path for include files.
