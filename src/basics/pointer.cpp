@@ -2,9 +2,10 @@
 
 using namespace std;
 
-void print_var_pointer() {
+void print_var_pointer()
+{
     int a = 10;
-    int* p; // Declaration of pointer type.
+    int *p; // Declaration of pointer type.
     p = &a; // Referencing.
 
     cout << "a: " << a << "\n";
@@ -13,12 +14,13 @@ void print_var_pointer() {
     printf("Using pointer %d at address %p\n", *p, p);
 }
 
-void print_stack_array_pointer() {
+void print_stack_array_pointer()
+{
     // Create an array inside the stack.
     // This is the default for variables you create in your functions.
     int arr[5] = {2, 4, 6, 8, 10};
-    int* p;
-    int* e;
+    int *p;
+    int *e;
     // Where's the & symbol here? It's implicit with arrays.
     // &arr is invalid syntax.
     p = arr;
@@ -32,13 +34,14 @@ void print_stack_array_pointer() {
         cout << arr[i] << ", " << p[i] << "\n";
 }
 
-void print_heap_array_pointer() {
+void print_heap_array_pointer()
+{
     // Create an array inside the heap.
-    int* p;
-    int* r;
+    int *p;
+    int *r;
 
     // C syntax:
-    p = (int*)malloc(5 * sizeof(int));
+    p = (int *)malloc(5 * sizeof(int));
 
     p[0] = 10;
     p[1] = 15;
@@ -73,20 +76,22 @@ void print_heap_array_pointer() {
     // C: free
     // C++: delete
     free(p);
-    delete []r;
+    delete[] r;
 }
 
-struct Rectangle {
+struct Rectangle
+{
     int width;
     int height;
 };
 
-void print_pointer_sizes() {
-    int* p1;
-    char* p2;
-    float* p3;
-    double* p4;
-    struct Rectangle* p5;
+void print_pointer_sizes()
+{
+    int *p1;
+    char *p2;
+    float *p3;
+    double *p4;
+    struct Rectangle *p5;
 
     // Every pointer takes the same amount of memory.
     // Latest compilers: 8 bytes in 64-bit machines.

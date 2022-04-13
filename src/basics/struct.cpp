@@ -3,7 +3,8 @@
 
 using namespace std;
 
-void print_rectangle() {
+void print_rectangle()
+{
     struct Rectangle r1 = {10, 5};
 
     r1.width = 12;

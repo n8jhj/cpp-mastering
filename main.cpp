@@ -4,11 +4,13 @@
 #include "basics/pointer.h"
 #include "basics/reference.h"
 
-void do_struct() {
+void do_struct()
+{
     print_rectangle();
 }
 
-void do_pointer() {
+void do_pointer()
+{
     print_var_pointer();
     printf("\n");
     print_stack_array_pointer();
@@ -18,11 +20,13 @@ void do_pointer() {
     print_pointer_sizes();
 }
 
-void do_reference() {
+void do_reference()
+{
     print_reference();
 }
 
-int main() {
+int main()
+{
     do_reference();
 
     return 0;

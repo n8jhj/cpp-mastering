@@ -3,7 +3,8 @@
 
 #include <bitset>
 
-struct Rectangle {
+struct Rectangle
+{
     int16_t width;
     int16_t height;
     char x;

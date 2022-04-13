@@ -2,12 +2,13 @@
 
 using namespace std;
 
-void print_reference() {
+void print_reference()
+{
     int a = 10;
     // NOTE: References require initialization at the same time as
     // declaration.
     // Analogy: a's nickname. E.g. Rajendran -> Raj.
-    int& r = a;
+    int &r = a;
 
     int b = 25;
     r = b; // Doing this sets r and a to the same value as b.
