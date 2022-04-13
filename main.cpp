@@ -4,6 +4,7 @@
 #include "basics/pointer.h"
 #include "basics/reference.h"
 #include "basics/pointer_to_struct.h"
+#include "basics/function.h"
 
 void do_struct()
 {
@@ -33,9 +34,14 @@ void do_pointer_to_struct()
     print_pointer_to_struct_in_heap();
 }
 
+void do_function()
+{
+    print_function_result();
+}
+
 int main()
 {
-    do_pointer_to_struct();
+    do_function();
 
     return 0;
 }
