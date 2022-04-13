@@ -3,6 +3,7 @@
 #include "basics/struct.h"
 #include "basics/pointer.h"
 #include "basics/reference.h"
+#include "basics/pointer_to_struct.h"
 
 void do_struct()
 {
@@ -25,9 +26,16 @@ void do_reference()
     print_reference();
 }
 
+void do_pointer_to_struct()
+{
+    print_pointer_to_struct();
+    printf("\n");
+    print_pointer_to_struct_in_heap();
+}
+
 int main()
 {
-    do_reference();
+    do_pointer_to_struct();
 
     return 0;
 }
