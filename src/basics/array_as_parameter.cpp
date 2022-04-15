@@ -21,7 +21,7 @@ void use_array(int *arr, int length)
 int *make_array_of_length(int length)
 {
     int *p;
-    p = new int[length];
+    p = new int[length]; // Allocate in heap.
     for (int i = 0; i < length; i++)
     {
         p[i] = i + 1;
@@ -47,4 +47,9 @@ void print_array_from_factory()
         cout << arr[i] << " ";
     }
     cout << "\n";
+
+    // Yikes! I don't like having to delete this thing
+    // outside the function it was created in!
+    // Seems like a good way to forget to do this.
+    delete[] arr;
 }
