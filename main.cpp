@@ -6,6 +6,7 @@
 #include "basics/pointer_to_struct.h"
 #include "basics/function.h"
 #include "basics/parameter_passing.h"
+#include "basics/array_as_parameter.h"
 
 void do_struct()
 {
@@ -52,9 +53,16 @@ void do_parameter_passing()
     print_call_by_reference();
 }
 
+void do_array_as_parameter()
+{
+    print_array_as_parameter();
+    printf("\n");
+    print_array_from_factory();
+}
+
 int main()
 {
-    do_parameter_passing();
+    do_array_as_parameter();
 
     return 0;
 }
