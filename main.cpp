@@ -8,6 +8,12 @@
 #include "basics/parameter_passing.h"
 #include "basics/array_as_parameter.h"
 
+/*
+Each function defined in this file illustrates the concepts learned
+in one of the lessons of the course.
+The functions are meant to be run one at a time.
+*/
+
 void do_struct()
 {
     print_rectangle();
