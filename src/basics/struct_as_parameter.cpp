@@ -121,4 +121,6 @@ void print_struct_from_factory()
     printf("From factory:\n");
     printf("  width: %i\n", p->width);
     printf("  height: %i\n", p->height);
+
+    delete p;
 }
