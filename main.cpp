@@ -9,6 +9,7 @@
 #include "basics/007_parameter_passing.h"
 #include "basics/008_array_as_parameter.h"
 #include "basics/009_struct_as_parameter.h"
+#include "basics/010_monolithic_program.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -94,9 +95,14 @@ void do_struct_as_parameter()
     print_struct_from_factory();
 }
 
+void do_monolithic_program()
+{
+    print_monolithic_program();
+}
+
 int main()
 {
-    do_array();
+    do_monolithic_program();
 
     return 0;
 }

@@ -20,6 +20,7 @@ add_executable(
     "src/basics/007_parameter_passing.cpp"
     "src/basics/008_array_as_parameter.cpp"
     "src/basics/009_struct_as_parameter.cpp"
+    "src/basics/010_monolithic_program.cpp"
 )
 
 # Add the binary tree to the search path for include files.
