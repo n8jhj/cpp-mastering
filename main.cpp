@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+#include "basics/array.h"
 #include "basics/struct.h"
 #include "basics/pointer.h"
 #include "basics/reference.h"
@@ -20,6 +21,13 @@ Each function defined in this file illustrates the concepts learned
 in one of the lessons of the course.
 The functions are meant to be run one at a time.
 */
+
+void do_array()
+{
+    print_array();
+    printf("\n");
+    print_variable_sized_array();
+}
 
 void do_struct()
 {
@@ -88,7 +96,7 @@ void do_struct_as_parameter()
 
 int main()
 {
-    do_struct_as_parameter();
+    do_array();
 
     return 0;
 }
