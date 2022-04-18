@@ -1,5 +1,5 @@
 #include <iostream>
-#include "basics/struct_as_parameter.h"
+#include "basics/009_struct_as_parameter.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ void struct_call_by_value(Rectangle3 r)
 {
     // C++ syntax: Don't include "struct" before Rectangle3.
     // Since this is call by value and parameters therefore have their
-    // scope within this function...
+    // scope within this 006_function...
     //   1. it's okay to reuse the name "r".
     //   2. Modifications to the passed Rectangle3 object are local,
     //      since the object is a copy of the one that was passed.

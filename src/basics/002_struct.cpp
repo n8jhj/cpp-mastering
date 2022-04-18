@@ -1,5 +1,5 @@
 #include <iostream>
-#include "basics/struct.h"
+#include "basics/002_struct.h"
 
 using namespace std;
 

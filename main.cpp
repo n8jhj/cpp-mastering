@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-#include "basics/array.h"
-#include "basics/struct.h"
-#include "basics/pointer.h"
-#include "basics/reference.h"
-#include "basics/pointer_to_struct.h"
-#include "basics/function.h"
-#include "basics/parameter_passing.h"
-#include "basics/array_as_parameter.h"
-#include "basics/struct_as_parameter.h"
+#include "basics/001_array.h"
+#include "basics/002_struct.h"
+#include "basics/003_pointer.h"
+#include "basics/004_reference.h"
+#include "basics/005_pointer_to_struct.h"
+#include "basics/006_function.h"
+#include "basics/007_parameter_passing.h"
+#include "basics/008_array_as_parameter.h"
+#include "basics/009_struct_as_parameter.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
