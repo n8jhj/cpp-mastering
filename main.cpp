@@ -11,6 +11,7 @@
 #include "02_basics/009_struct_as_parameter.h"
 #include "02_basics/010_monolithic_program.h"
 #include "02_basics/011_modular_program.h"
+#include "02_basics/012_struct_and_functions.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -106,9 +107,14 @@ void do_modular_program()
     print_modular_program();
 }
 
+void do_struct_and_functions()
+{
+    print_struct_and_functions();
+}
+
 int main()
 {
-    do_modular_program();
+    do_struct_and_functions();
 
     return 0;
 }
