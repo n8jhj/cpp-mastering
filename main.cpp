@@ -10,6 +10,7 @@
 #include "02_basics/008_array_as_parameter.h"
 #include "02_basics/009_struct_as_parameter.h"
 #include "02_basics/010_monolithic_program.h"
+#include "02_basics/011_modular_program.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -100,9 +101,14 @@ void do_monolithic_program()
     print_monolithic_program();
 }
 
+void do_modular_program()
+{
+    print_modular_program();
+}
+
 int main()
 {
-    do_monolithic_program();
+    do_modular_program();
 
     return 0;
 }
