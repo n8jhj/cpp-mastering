@@ -11,16 +11,16 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(
     main
     "main.cpp"
-    "src/basics/001_array.cpp"
-    "src/basics/002_struct.cpp"
-    "src/basics/003_pointer.cpp"
-    "src/basics/004_reference.cpp"
-    "src/basics/005_pointer_to_struct.cpp"
-    "src/basics/006_function.cpp"
-    "src/basics/007_parameter_passing.cpp"
-    "src/basics/008_array_as_parameter.cpp"
-    "src/basics/009_struct_as_parameter.cpp"
-    "src/basics/010_monolithic_program.cpp"
+    "src/02_basics/001_array.cpp"
+    "src/02_basics/002_struct.cpp"
+    "src/02_basics/003_pointer.cpp"
+    "src/02_basics/004_reference.cpp"
+    "src/02_basics/005_pointer_to_struct.cpp"
+    "src/02_basics/006_function.cpp"
+    "src/02_basics/007_parameter_passing.cpp"
+    "src/02_basics/008_array_as_parameter.cpp"
+    "src/02_basics/009_struct_as_parameter.cpp"
+    "src/02_basics/010_monolithic_program.cpp"
 )
 
 # Add the binary tree to the search path for include files.

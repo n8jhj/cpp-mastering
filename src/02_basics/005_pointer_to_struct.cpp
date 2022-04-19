@@ -1,5 +1,5 @@
 #include <iostream>
-#include "basics/005_pointer_to_struct.h"
+#include "02_basics/005_pointer_to_struct.h"
 
 using namespace std;
 
