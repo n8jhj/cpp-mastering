@@ -12,6 +12,7 @@
 #include "02_basics/010_monolithic_program.h"
 #include "02_basics/011_modular_program.h"
 #include "02_basics/012_struct_and_functions.h"
+#include "02_basics/013_object_oriented_program.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -112,9 +113,14 @@ void do_struct_and_functions()
     print_struct_and_functions();
 }
 
+void do_object_oriented_program()
+{
+    print_object_oriented_program();
+}
+
 int main()
 {
-    do_struct_and_functions();
+    do_object_oriented_program();
 
     return 0;
 }
