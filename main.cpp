@@ -13,6 +13,7 @@
 #include "02_basics/011_modular_program.h"
 #include "02_basics/012_struct_and_functions.h"
 #include "02_basics/013_object_oriented_program.h"
+#include "02_basics/014_class.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -118,9 +119,14 @@ void do_object_oriented_program()
     print_object_oriented_program();
 }
 
+void do_class()
+{
+    print_class();
+}
+
 int main()
 {
-    do_object_oriented_program();
+    do_class();
 
     return 0;
 }
