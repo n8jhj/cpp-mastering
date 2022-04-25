@@ -14,6 +14,7 @@
 #include "02_basics/012_struct_and_functions.h"
 #include "02_basics/013_object_oriented_program.h"
 #include "02_basics/014_class.h"
+#include "02_basics/015_template_class.h"
 
 /*
 Each function defined in this file illustrates the concepts learned
@@ -124,9 +125,14 @@ void do_class()
     print_class();
 }
 
+void do_template_class()
+{
+    print_template_class();
+}
+
 int main()
 {
-    do_class();
+    do_template_class();
 
     return 0;
 }

@@ -25,6 +25,7 @@ add_executable(
     "src/02_basics/012_struct_and_functions.cpp"
     "src/02_basics/013_object_oriented_program.cpp"
     "src/02_basics/014_class.cpp"
+    "src/02_basics/015_template_class.cpp"
 )
 
 # Add the binary tree to the search path for include files.
