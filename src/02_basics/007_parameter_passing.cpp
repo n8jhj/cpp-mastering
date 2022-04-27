@@ -52,7 +52,7 @@ void print_call_by_reference()
 
     printf("At first: (%i, %i)\n", num1, num2);
 
-    swap(num1, num2);
+    swap_ref(num1, num2);
 
     printf("Then: (%i, %i)\n", num1, num2);
 }

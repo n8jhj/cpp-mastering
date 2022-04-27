@@ -132,7 +132,7 @@ void do_template_class()
 
 int main()
 {
-    do_template_class();
+    do_parameter_passing();
 
     return 0;
 }
