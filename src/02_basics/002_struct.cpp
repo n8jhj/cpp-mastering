@@ -12,7 +12,7 @@ void print_rectangle()
     cout << "r1.width: " << r1.width << "\n";
     cout << "r1.height: " << r1.height << "\n";
 
-    // Becuase it's easier for the computer to read fields of the same size,
+    // Because it's easier for the computer to read fields of the same size,
     // sizeof() will show 2 + 2 + 2 = 6 bytes (not 5). The char x field takes
     // 2 bytes instead of 1.
     // If you change the type of width and height to int32_t, you'll see that

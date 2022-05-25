@@ -17,7 +17,7 @@ Rectangle6::Rectangle6(int w, int h)
 
 Rectangle6::~Rectangle6()
 {
-    cout << "<Rectangle6 Desctructor>\n";
+    cout << "<Rectangle6 Destructor>\n";
 }
 
 int Rectangle6::area()

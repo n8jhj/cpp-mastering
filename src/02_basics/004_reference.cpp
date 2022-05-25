@@ -7,7 +7,7 @@ void print_reference()
     int a = 10;
     // NOTE: References require initialization at the same time as
     // declaration.
-    // Analogy: a's nickname. E.g. Rajendran -> Raj.
+    // Analogy: a's nickname. E.g. Rajendran -> Raj.  // cspell:ignore Rajendran
     int &r = a;
 
     int b = 25;

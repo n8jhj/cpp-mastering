@@ -13,7 +13,7 @@ Arithmetic<T>::Arithmetic(T a, T b)
 template <class T>
 Arithmetic<T>::~Arithmetic()
 {
-    cout << "Arithmetic desctructor\n";
+    cout << "Arithmetic destructor\n";
 }
 
 template <class T>
@@ -53,6 +53,7 @@ void print_template_class()
     cout << "Add: " << ar_int.add() << "\n";
     cout << "Sub: " << ar_int.sub() << "\n";
 
+    // cspell:ignore arpr
     Arithmetic<float> ar_float(3.499, 6.72);
     ArithmeticPrinter<float> arpr_float(&ar_float);
     arpr_float.print_add_sub();
